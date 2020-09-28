@@ -7,6 +7,56 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+form {
+  text-align: center;
+  background: cover;
+  background-color: palevioletred;
+  display: flexbox;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: center;
+}
+
+.formspecs {
+  background-color: palevioletred;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  background: cover;
+}
+
+input {
+  text-align: center;
+  margin: 2em 5em;
+}
+
+.Image {
+  display: block;
+  padding-left: 150px;
+  padding-right: 150px;
+  width: 50%;
+  background: cover;
+  background-color: palevioletred;
+}
+
+button {
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2 em 5em;
+  background-color: white;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 90px;
+  margin-right: 60px;
+  font-size: x-large;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
