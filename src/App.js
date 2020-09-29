@@ -27,9 +27,7 @@ export function App() {
       .replace('"', "''");
   };
 
-  let availableImageNamesLoaded = false;
   useEffect(() => {
-    availableImageNamesLoaded = true;
     console.log('D', Date.now());
     axios('https://api.memegen.link/templates/').then((result) => {
       console.log(result);
